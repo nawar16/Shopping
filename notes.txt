@@ -1,0 +1,6 @@
+$app->bind('path.public', function() {
+  return __DIR__;
+});
+write above code in public_html\index.php above of this code
+
+$kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
